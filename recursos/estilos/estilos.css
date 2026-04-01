@@ -1,0 +1,242 @@
+/*Estilos Navbar*/
+.ul-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.ul-navbar li {
+    float: left;
+}
+  
+.ul-navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ul-navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.titulo-marca{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-right: solid white 1px;
+    font-weight: bold;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+/*Estilos Footer*/
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-redes{
+    margin-top: -10px;
+    width: 40px;
+    height: 40px;
+}
+
+/*Estilos Página Inicio*/
+.tabla-100{
+    width: 80%;
+}
+
+.parrafo-inicio{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.titulo-bienvenida{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.imagen-inicioP{
+    width: 700px;
+    height: 600px;
+}
+
+.imagen-inicioS{
+    width: 400px;
+    height: 300px;
+}
+
+.collage td{
+    border-collapse: collapse;
+    border: double 3px;
+}
+
+.div-collage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-comercial{
+    text-align: center;
+    width: 100%;
+}
+
+.comercial{
+    height: 630px;
+    border: double 3px;
+}
+
+/*Estilos Cartas Quienes Somos*/
+.card-qs {
+    width: 25%;
+    border: solid black 1px;
+    margin-right: 5px;
+}
+  
+
+.container-card-qs {
+    padding: 2px 16px;
+    height: 250px;
+}
+
+.box-cards-qs {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.imagen-card-qs{
+    height: 300px;
+    background: linear-gradient(to bottom, #CEE5D0, #F3F0D7, #E0C097, #FF7878);
+}
+
+
+/*Estilos Cartas Menú*/
+.card-menu {
+    width: 25%;
+    border: solid black 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+  
+
+.container-card-menu {
+    padding: 2px 16px;
+    height: 300px;
+}
+
+.container-card-menu2 {
+    padding: 2px 16px;
+    height: 180px;
+}
+
+.box-cards-menu {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-card-menu {
+    height: 300px;
+    background: linear-gradient(to bottom, #CEE5D0, #F3F0D7, #E0C097, #FF7878);
+    border-bottom: solid black 1px;
+}
+
+/*Estilos Cartas Empleados*/
+.card-empleado {
+    width: 15%;
+    border: solid black 1px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+  
+
+.container-card-empleado {
+    padding: 2px 16px;
+    height: 100px;
+}
+
+.box-cards-empleado {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-card-empleado {
+    height: 200px;
+    background: linear-gradient(to bottom, #CEE5D0, #F3F0D7, #E0C097, #FF7878);
+    border-bottom: solid black 1px;
+}
+
+.margen-top-empleado{
+    margin-top: -10px;
+}
+
+/*Estilos Formulario Contacto*/
+.form-contacto {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, #CEE5D0, #F3F0D7, #E0C097, #FF7878);
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.form-contacto input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.form-contacto textarea {
+    width: 90%;
+    height: 80px;
+    margin: 0.5rem;
+}
+
+.descripcion-contacto{
+    text-decoration: underline;
+}
+
+.legend-form{
+    font-weight: bold;
+    font-size: large;
+}
